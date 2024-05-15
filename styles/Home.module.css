@@ -1,0 +1,986 @@
+@keyframes Slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-163.2%);
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 4rem 0;
+  background-color: black;
+}
+
+.title {
+  line-height: 1.15;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.image {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 100px;
+}
+
+.image p{
+  position: absolute;
+  left: 80%;
+  top: 100%;
+  color: white;
+  font-size: 7px;
+}
+
+.accroche {
+  position: absolute;
+  top: -80px;
+  background-color: white;
+  border-radius: 40px;
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  transform: rotate(-5deg);
+  box-shadow: 5px 5px 5px grey;
+}
+
+.accrocheTitle {
+  text-align: center;
+}
+
+.A45 {
+  height: 500px;
+  border-radius: 50px;
+  width: 90%;
+  background-image: url("../public/AudiA1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.divCarousel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.divTitleCarousel {
+  display: flex;
+  background-color: white;
+  border-radius: 40px;
+  width: 30%;
+  padding: 10px;
+  transform: rotate(-5deg);
+  box-shadow: 5px 5px 5px grey;
+  z-index: 2;
+}
+
+.divTitleCarousel h1 {
+  text-align: center;
+}
+
+.carousel {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  /* transform: translateX(-165%); */
+  animation: Slide infinite linear;
+  animation-duration: 15s;
+}
+
+.logoSlide {
+  width: 100%;
+  margin: 0 30px;
+  border-radius: 40px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.logoSlide h2 {
+  position: absolute;
+  color: white;
+}
+
+.imageCarousel {
+  border-radius: 40px;
+}
+
+.divDescription {
+  width: 100%;
+  display: flex;
+}
+
+.accrocheDescription {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  font-size: 35px;
+}
+
+.titleDescription {
+  color: white;
+  text-align: center;
+}
+
+.luckDescription {
+  position: absolute;
+  background-color: white;
+  border-radius: 40px;
+  width: 20%;
+  padding: 1px;
+  top: 270px;
+  transform: rotate(5deg);
+  box-shadow: 5px 5px 5px grey;
+}
+
+.luckDescription h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.description {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.imageDescription {
+  background-image: url("../public/Audi_a1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 90%;
+  height: 400px;
+  border-radius: 50px;
+}
+
+.titleImageDescription {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 40px;
+  width: 60%;
+  padding: 10px;
+  transform: rotate(5deg);
+  top: 350px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.titleImageDescription h1 {
+  text-align: center;
+}
+
+.spanColor {
+  color: rgb(210, 22, 210);
+}
+
+.onBoard {
+  margin-top: 150px;
+  background-color: white;
+  border-radius: 40px;
+  padding: 10px;
+  width: 60%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.onBoard h1 {
+  text-align: center;
+}
+
+.onBoard p {
+  text-align: center;
+}
+
+/*Prestation display*/
+.allDescriptionIcone {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+
+.allDescription {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 30px;
+  width: 40%;
+  transform: rotate(5deg);
+}
+
+.allIDescription {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 30px;
+  width: 40%;
+  transform: rotate(-5deg);
+}
+
+.descriptionOne {
+  background-color: white;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptionOne h1 {
+  text-align: center;
+}
+
+.descriptionOne p {
+  text-align: center;
+}
+
+.icone {
+  position: absolute;
+  width: 100%;
+  margin-top: -90px;
+}
+
+.icone p {
+  text-align: center;
+  font-size: 55px;
+}
+
+/*Concours*/
+.concours {
+  width: 90%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px grey;
+  margin-top: 50px;
+  display: flex;
+}
+
+.concoursDescription {
+  margin: 0 10px;
+}
+
+.concoursDescription h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.concoursDescription p {
+  margin-left: 30px;
+}
+
+.imageConcours {
+  background-image: url("../public/AudiA1_interior.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  border-radius: 20px;
+}
+
+/*Formules*/
+.choix {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.choixUn {
+  background-color: rgb(210, 22, 210);
+  display: flex;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 20px;
+}
+.choixUn p {
+  color: white;
+  display: flex;
+}
+
+.priceBold {
+  font-weight: bold;
+}
+
+.choixUnBis {
+  display: flex;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.choix p {
+  margin-left: 10px;
+}
+
+/*Bouton participer*/
+.participe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.participecenter {
+  width: 60%;
+  border-radius: 20px;
+  background-color: rgb(210, 22, 210);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.participecenter h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.participecenter:hover {
+  background-color: white;
+  border: 2px solid rgb(210, 22, 210);
+  cursor: pointer;
+}
+
+.participecenter:hover h1 {
+  font-size: 20px;
+  color: rgb(210, 22, 210);
+}
+
+/*Déroulement*/
+.deroulement {
+  background-image: url("../public/arrow.png");
+  background-size: contain;
+  background-position: center;
+  background-position-y: 45px;
+  background-repeat: no-repeat;
+  width: 90%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deroulementTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.deroulementTitle h1 {
+  color: white;
+  font-size: 55px;
+}
+
+.etapes {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 40px;
+  width: 40%;
+  top: 90px;
+  transform: rotate(-5deg);
+  box-shadow: 5px 5px 5px grey;
+}
+
+.etapes h1 {
+  font-size: 35px;
+  color: rgb(210, 22, 210);
+}
+
+.encadreEtape {
+  margin-top: 160px;
+  width: 80%;
+}
+
+.deroulementEtape {
+  width: 100%;
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.deroulementEtape:nth-child(2) {
+  margin-left: 60%;
+  margin-top: -100px;
+}
+.deroulementEtape:nth-child(3) {
+  margin-top: -130px;
+}
+
+.deroulementEtape:nth-child(4) {
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  margin-left: 5%;
+}
+
+.number {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  top: -40px;
+  background-color: white;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.number h1 {
+  color: rgb(210, 22, 210);
+}
+
+.jeparticipe {
+  background-color: rgb(210, 22, 210);
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  border: 2px solid rgb(210, 22, 210);
+}
+
+.jeparticipe:hover {
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid rgb(210, 22, 210);
+}
+.jeparticipe h1 {
+  color: white;
+}
+
+.jeparticipe:hover h1 {
+  color: rgb(210, 22, 210);
+}
+
+.lien{
+  text-decoration: none;
+}
+
+.annexe{
+  width: 90%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.annexe h2{
+  color: white;
+  text-align: center;
+}
+
+.annexe button{
+  background-color: rgb(210, 22, 210);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  width: 20%;
+  border-radius: 30px;
+  border: 2px solid rgb(210, 22, 210);
+}
+
+.annexe button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: rgb(210, 22, 210);
+}
+
+/*RESPONSIVE - RESPONSIVE - RESPONSIVE -RESPONSIVE */
+
+/* @media screen and (max-width: 1460px) {
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-167.2%);
+    }
+  }
+} */
+
+@media screen and (max-width: 1445px) {
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-166.3%);
+    }
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-168.1%);
+    }
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-170.4%);
+    }
+  }
+}
+
+@media screen and (max-width: 1390px) {
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-172.9%);
+    }
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-175.4%);
+    }
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  .luckDescription {
+    top: 350px;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1345px) {
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-178.7%);
+    }
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-182.1%);
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-184.9%);
+    }
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .titleImageDescription {
+    width: 70%;
+  }
+  .participe {
+    margin-top: 25px;
+  }
+  .jeparticipe {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .concours {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageConcours {
+    height: 500px;
+    width: 90%;
+  }
+
+  .concoursDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .deroulementEtape h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-200.3%);
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-218.3%);
+    }
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .title {
+    width: 70%;
+  }
+  .image {
+    width: 85%;
+  }
+
+  .accroche {
+    width: 45%;
+  }
+
+  .divTitleCarousel {
+    width: 50%;
+  }
+
+  .luckDescription {
+    top: 350px;
+    width: 20%;
+  }
+
+  @keyframes Slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-225%);
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    @keyframes Slide {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-228.8%);
+      }
+    }
+  }
+
+  @media screen and (max-width: 1010px) {
+    .luckDescription {
+      width: 15%;
+    }
+  }
+
+  .divDescription {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accrocheDescription {
+    width: 90%;
+  }
+
+  .luckDescription {
+    top: 190px;
+  }
+
+  .description {
+    width: 90%;
+    margin-top: 60px;
+  }
+
+  .imageDescription {
+    width: 100%;
+  }
+
+  .concours {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .concoursDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  .luckDescription {
+    top: 265px;
+  }
+
+  .deroulementTitle h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .etapes h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .title {
+    width: 85%;
+  }
+  .accroche {
+    width: 55%;
+  }
+
+  .luckDescription {
+    top: 270px;
+  }
+
+  .deroulementTitle h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .etapes h1 {
+    font-size: 40px;
+  }
+
+  .deroulementEtape {
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .deroulementEtape h1 {
+    font-size: 20px;
+  }
+
+  .deroulementEtape p {
+    text-align: center;
+  }
+
+  .number {
+    height: 50px;
+    width: 50px;
+    top: -20px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .luckDescription {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  .deroulementTitle h1 {
+    font-size: 45px;
+  }
+
+  .etapes h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .divTitleCarousel {
+    width: 60%;
+  }
+
+  .annexe button{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 845px) {
+  .accroche {
+    width: 75%;
+  }
+  .encadreEtape {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .deroulementTitle h1 {
+    font-size: 40px;
+  }
+
+  .etapes{
+    top:70px
+  }
+
+  .etapes h1{
+    font-size: 25px;
+  }
+
+}
+
+@media screen and (max-width: 790px) {
+  .encadreEtape {
+    margin-top: 50px;
+  }
+
+  .deroulementEtape {
+    margin: 40px 0;
+    padding: 20px;
+  }  
+
+  .deroulementEtape p {
+    font-size: 14px;
+  }
+
+}
+
+
+@media screen and (max-width: 770px) {
+  .encadreEtape {
+    margin-top: 30px;
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+  .deroulement {
+    background-image: none;
+  }
+
+  .encadreEtape {
+    margin-top: 60px;
+  }
+
+  .jeparticipe{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .encadreEtape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .deroulementEtape{
+    width: 80%;
+  }
+
+
+  .deroulementEtape:nth-child(2){
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .deroulementEtape:nth-child(3){
+    margin-top: 0;
+  }
+  .deroulementEtape:nth-child(4){
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .etapes{
+    top:110px
+  }
+}
+
+
+@media screen and (max-width: 665px) {
+  .luckDescription{
+    top:340px
+  }
+
+  .titleImageDescription{
+    width: 80%;
+  }
+
+  .allDescriptionIcone{
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .allDescription{
+    width: 80%;
+    transform: rotate(-5deg);
+    margin-top: 30px;
+  }
+
+  .allIDescription{
+    width: 80%;
+    transform: rotate(5deg);
+    margin-top: 30px;
+  }
+
+  .allDescription:nth-child(4){
+    transform: rotate(5deg);
+  }
+
+  .allIDescription:nth-child(3){
+    transform: rotate(-5deg);
+  }
+
+  .jeparticipe{
+    width: 60%;
+  }
+}

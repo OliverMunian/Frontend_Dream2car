@@ -1,0 +1,114 @@
+.navbar {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.titleLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basketAmount{
+  position: relative;
+}
+
+.quantityAmount{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 25%;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(210, 22, 210);
+  padding: 10px;
+  color: white;
+  border-radius: 50%;
+}
+
+
+
+.title{
+    color: white;
+    font-size: 50px;
+}
+
+.icon{
+  color:white;
+  margin: 0 50px;
+}
+
+.icon:hover{
+  cursor: pointer;
+}
+
+.modal{
+  top: 0;
+  width: 100%;
+  z-index: 4;
+  position: fixed;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal h1{
+  text-align: center;
+  font-size: 50px;
+  transition: 100ms ease;
+}
+.modal h1:hover{
+  color: rgb(210, 22, 210);
+  cursor: pointer;
+  transform: scale(1.2);
+  animation: 2ms ease;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+@keyframes Spin{
+  from{
+    transform: rotate(0deg)
+  }
+  to{
+    transform: rotate(180deg)
+  }
+}
+
+.close:hover{
+  cursor: pointer;
+  animation: Spin 1s ease;
+  color: rgb(210, 22, 210);
+}
+
+.contact{
+  background-color: rgb(210, 22, 210);
+  padding: 1px;
+  border-radius: 60px;
+  color:white
+}
+.contact h1:hover{
+  transform: scale(1.1);
+}
+
+.contact:hover{
+  cursor: pointer;
+  border: 4px solid rgb(210, 22, 210);
+  background-color: white;
+  color: rgb(210, 22, 210);
+}
+
+.contact:hover h1 {
+  color: rgb(210, 22, 210);
+}

@@ -1,0 +1,169 @@
+.mainfaq{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titlefaq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.titlefaq h1{
+    color: white;
+    font-size: 55px;
+}
+
+.subtitlefaq{
+    position: absolute;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 40px;
+    padding: 0px;
+    width: 80%;
+    text-align: center;
+    transform: rotate(-5deg);
+    box-shadow: 5px 5px 5px grey;
+}
+
+.subtitlefaq h1{
+    font-size: 35px;
+    color: rgb(210, 22, 210);
+}
+
+.wrapfaq{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    margin-top: 200px;
+}
+
+.boxfaq{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.faq{
+    text-align: center;
+    width: 80%;
+    padding-left: 50px;
+    transition: 500ms;
+}
+
+.faq h1{
+    color: black
+}
+
+.arrow{
+    color: rgb(210, 22, 210);
+    transition: 400ms;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.arrowturn{
+    color: rgb(210, 22, 210);
+    transform: rotate(90deg);
+    transition: 400ms;
+}
+
+.arrowturn:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 1290px) {
+    .faq h1{
+        color: black;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .faq h1{
+        color: black;
+        font-size: 27px;
+    }
+  }
+
+  @media screen and (max-width: 1175px) {
+    .faq h1{
+        color: black;
+        font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 1005px) {
+    .faq h1{
+        color: black;
+        font-size: 23px;
+    }
+  }
+
+  @media screen and (max-width: 995px) {
+    .boxfaq{
+        padding: 15px;
+    }
+  }
+
+  @media screen and (max-width: 965px) {
+    .faq h1{
+        color: black;
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 885px) {
+    .faq p{
+        font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 840px) {
+    .faq p{
+        font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .wrapfaq{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        margin-top: 200px;
+    }
+
+    .faq h1{
+        color: black;
+        font-size: 30px;
+    }
+    .faq p{
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 655px) {
+    .faq h1{
+        color: black;
+        font-size: 27px;
+    }
+    .faq p{
+        font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 570px) {
+    .faq h1{
+        color: black;
+        font-size: 25px;
+    }
+  }

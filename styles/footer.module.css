@@ -1,0 +1,80 @@
+.mainfooter{
+    width: 90%;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 50px;
+}
+
+.titles{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.encadre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encadre h1{
+    color: rgb(210, 22, 210)
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 940px) {
+    .encadre h1{
+        font-size: 25px;
+    }
+    .encadre h2{
+        font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 815px) {
+    .titles{
+        justify-content: space-between;
+        width: 95%;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .titles{
+        justify-content: space-between;
+        width: 95%;
+    }
+    .link{
+        font-size: 12px;
+    }
+    .encadre h1{
+        font-size: 20px;
+    }
+    .encadre h2{
+        font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 635px) {
+    .titles{
+        flex-direction: column;
+    }
+    .link{
+        font-size: 20px;
+    }
+    .encadre h1{
+        font-size: 35px;
+    }
+    .encadre h2{
+        font-size: 20px;
+    }
+  }
