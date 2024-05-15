@@ -167,3 +167,30 @@
         font-size: 25px;
     }
   }
+
+  @media screen and (max-width: 430px) {
+    .titlefaq h1{
+        font-size: 45px;
+    }
+
+    .subtitlefaq{
+        width: 90%;
+        top:80px
+    }
+
+    .subtitlefaq h1{
+        font-size: 35px;
+    }
+
+    .wrapfaq{
+        margin-top: 130px;
+    }
+
+    .faq h1{
+        font-size: 20px;
+    }
+
+    .faq p{
+        font-size: 17px;
+    }
+  }

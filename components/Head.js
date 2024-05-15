@@ -34,10 +34,10 @@ function Header() {
           onClick={() => handlePress()}
         />
         <div className={styles.titleLogo}>
-          {/* <Link href="/"> */}
+          <Link href="/" style={{width:'100%'}}>
             {/* <Image src={Logo} width={300} height={100} /> */}
             <div className={styles.logoimg}></div>
-          {/* </Link> */}
+          </Link>
           {/* <Image src={Logo} width={300} height={100} /> */}
         </div>
         <Link href="/basket">

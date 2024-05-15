@@ -989,8 +989,33 @@
   .title{
     font-size: 40px;
   }
+  .image p{
+    left: 70%;
+  }
+  .accroche{
+    width: 95%;
+  }
+  .A45{
+    height: 320px;
+  }
+  .divCarousel{
+    margin-top: 30px;
+  }
+
+  .divTitleCarousel{
+    width: 80%;
+  }
+
+  .divTitleCarousel h1{
+    font-size: 25px;
+  }
+
   .accrocheDescription h1{
     font-size: 55px;
+  }
+  .imageDescription{
+    height: 340px;
+    background-position-x: -20px;
   }
   .titleDescription{
     font-size: 55px;
@@ -1004,5 +1029,16 @@
 
   .luckDescription h1{
     font-size: 30px;
+  }
+
+  .allDescription{
+    margin-top: 60px;
+  }
+  .jeparticipe{
+    width: 80%;
+    padding: 5px
+  }
+  .annexe button{
+    width: 70%;
   }
 }
