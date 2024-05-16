@@ -1030,6 +1030,18 @@
     font-size: 55px;
   }
 
+  .allDescriptionIcone{
+    margin-top:220px
+  }
+
+  .allDescription:nth-child(4){
+    margin-top: 30px;
+  }
+
+  .etapes{
+    width: 50%;
+  }
+
   .luckDescription{
     top: 270px;
     width: 40%;
