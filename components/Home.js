@@ -13,6 +13,7 @@ import GLE from "../public/GLE.jpg";
 import A45interior from "../public/a45_interior.jpg";
 import FAQ from "./FAQ";
 import Intro from './introduction'
+import Carousel from "./carousel";
 import { participation } from "../particpationsStore";
 import { useState, useContext } from "react";
 import { cartContext } from "../cardContext";
@@ -58,39 +59,6 @@ function Home() {
     },
   ];
 
-  const imageVehicule = [
-    {
-      Title: "Audi RS3",
-      src: RS3,
-      alt: "Modele Audi RS3",
-    },
-    {
-      Title: "Volkswagen Golf 8R",
-      src: Golf8R,
-      alt: "Modele Golf8R",
-    },
-    {
-      Title: "Audi RQS3",
-      src: RSQ3,
-      alt: "Modele Audi RSQ3",
-    },
-    {
-      Title: "BMW M8 Competition",
-      src: M8,
-      alt: "Modele BMW M8 Competition",
-    },
-    {
-      Title: "Mercedes-Benz C63 AMG",
-      src: C63,
-      alt: "Modele Mercedes-Benz C63 AMG",
-    },
-    {
-      Title: "Mercedes-Benz GLE AMG",
-      src: GLE,
-      alt: "Modele Mercedes-Benz GLE AMG",
-    },
-  ];
-
   const participationDisplay = participation.map((participation, i) => {
     if (selectedOption === participation.id) {
       return (
@@ -120,20 +88,6 @@ function Home() {
         <div>
           <p className={styles.priceBold}>{participation.price}€</p>
         </div>
-      </div>
-    );
-  });
-
-  const imageDisplay = imageVehicule.map((voiture, i) => {
-    return (
-      <div className={styles.logoSlide} key={i}>
-        <Image
-          src={voiture.src}
-          height={200}
-          className={styles.imageCarousel}
-          alt={voiture.alt}
-        />
-        <h2>{voiture.Title}</h2>
       </div>
     );
   });
@@ -169,34 +123,8 @@ function Home() {
     <div>
       <Header></Header>
       <main className={styles.main}>
-        {/* <h1 className={styles.title}>
-          CE TYPE DE VOITURE DANS{" "}
-          <span className={styles.spanColor}> VOTRE GARAGE</span> ? <br />
-          C'EST DÉSORMAIS POSSIBLE!
-        </h1>
-        <div className={styles.image}>
-          <p>Photos non-contractuelles</p>
-          <div className={styles.accroche}>
-            <h1 className={styles.accrocheTitle}>
-              Tentez votre chance dès maintenant 🔥
-            </h1>
-          </div>
-          <div className={styles.A45}></div>
-        </div> */}
         <Intro/>
-        <div className={styles.divCarousel}>
-          <div className={styles.divTitleCarousel}>
-            <h1>
-              Tentez également de{" "}
-              <span className={styles.spanColor}> gagner </span> d'autres
-              modèles 🤩
-            </h1>
-          </div>
-          <div className={styles.carousel}>
-            {imageDisplay}
-            {imageDisplay}
-          </div>
-        </div>
+        <Carousel/>
         <div className={styles.divDescription}>
           <div className={styles.accrocheDescription}>
             <h1 className={styles.titleDescription}>
