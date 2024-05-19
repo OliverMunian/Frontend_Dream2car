@@ -33,21 +33,19 @@ function Header() {
           className={styles.icon}
           onClick={() => handlePress()}
         />
-        <div className={styles.titleLogo}>
+        <div className={styles.divLogo}>
           <Link href="/" style={{width:'100%'}}>
-            {/* <Image src={Logo} width={300} height={100} /> */}
-            <div className={styles.logoimg}></div>
+            <Image src={Logo} fill />
           </Link>
-          {/* <Image src={Logo} width={300} height={100} /> */}
         </div>
         <Link href="/basket">
           {quantityBasket > 0 ? (
-            <div className={styles.basketAmount}>
+            <div className={styles.divIcon}>
               <FaBasketShopping size={40} className={styles.icon} />
               <div className={styles.quantityAmount}>{quantityBasket}</div>
             </div>
           ) : (
-            <div className={styles.basketAmount}>
+            <div className={styles.divIcon}>
               <FaBasketShopping size={40} className={styles.icon} />
             </div>
           )}

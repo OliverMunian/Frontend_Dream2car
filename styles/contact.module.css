@@ -60,3 +60,26 @@
     cursor: pointer;
     transition: 200ms;
 }
+
+
+@media screen and (max-width: 430px) {
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title h1{
+        text-align: center;
+    }
+    .title p{
+        text-align: center;
+    }
+
+    .inputs input{
+        width: 100%;
+    }
+
+    .input textarea {
+        width: 100%;
+    }
+}

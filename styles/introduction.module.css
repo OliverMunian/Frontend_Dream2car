@@ -1,0 +1,127 @@
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+}
+
+.introduction h1{
+    color: white;
+    text-align: center;
+    font-size: 40px
+}
+
+.spanColor{
+    color: rgb(210, 22, 210);
+}
+
+.image{
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    aspect-ratio: 7/4;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    border-radius: 30px;
+}
+
+.imageIntroduction{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    border-radius: 30px;
+    width: 60%;
+    margin-top: -80px;
+    transform: rotate(-5deg);
+    box-shadow: 5px 5px 5px grey;
+}
+.imageIntroduction h1{
+    color: black;
+    font-size: 40px ;
+}
+
+.asterix{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.asterix p{
+    color: white;
+    font-size: 10px ;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1460px) {
+    .introduction h1{
+        font-size: 35px
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .introduction h1{
+        font-size: 40px
+    }
+    .imageIntroduction h1{
+        font-size: 30px ;
+    }
+}
+
+@media screen and (max-width: 1115px) {
+    .introduction h1{
+        font-size: 38px
+    }
+    .imageIntroduction h1{
+        font-size: 28px ;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .imageIntroduction h1{
+        font-size: 25px ;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .imageIntroduction h1{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .introduction{
+        width: 75%;
+    }
+    .imageIntroduction h1{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .imageIntroduction{
+        margin-top: -55px;
+    }
+
+    .imageIntroduction h1{
+        font-size: 20px ;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .introduction{
+        width: 80%;
+    }
+    .introduction h1{
+        font-size: 33px
+    }
+
+    .imageIntroduction h1{
+        font-size: 20px ;
+    }
+}

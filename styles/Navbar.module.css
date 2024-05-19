@@ -1,16 +1,19 @@
 .navbar {
   width: 100%;
-  padding-top: 50px;
+  padding-top: 30px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: black;
 }
 
-.titleLogo{
+.divLogo{
+  position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 30%;
+    aspect-ratio: 6/2;
 }
 
 .logoimg{
@@ -23,7 +26,7 @@
   height: 150px;
 }
 
-.basketAmount{
+.divIcon{
   position: relative;
 }
 
@@ -56,6 +59,7 @@
 
 .icon:hover{
   cursor: pointer;
+  color: rgb(210, 22, 210);
 }
 
 .modal{
@@ -125,9 +129,16 @@
 }
 
 
-
-
 /*MEDIA QUERIES*/
+@media screen and (max-width : 570){
+  .navbar svg{
+    width: 30px;
+  }
+  .icon{
+    width: 30px;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .logoimg{
     width: 90%;

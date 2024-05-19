@@ -12,6 +12,7 @@ import C63 from "../public/C63.jpg";
 import GLE from "../public/GLE.jpg";
 import A45interior from "../public/a45_interior.jpg";
 import FAQ from "./FAQ";
+import Intro from './introduction'
 import { participation } from "../particpationsStore";
 import { useState, useContext } from "react";
 import { cartContext } from "../cardContext";
@@ -168,7 +169,7 @@ function Home() {
     <div>
       <Header></Header>
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        {/* <h1 className={styles.title}>
           CE TYPE DE VOITURE DANS{" "}
           <span className={styles.spanColor}> VOTRE GARAGE</span> ? <br />
           C'EST DÉSORMAIS POSSIBLE!
@@ -181,7 +182,8 @@ function Home() {
             </h1>
           </div>
           <div className={styles.A45}></div>
-        </div>
+        </div> */}
+        <Intro/>
         <div className={styles.divCarousel}>
           <div className={styles.divTitleCarousel}>
             <h1>
