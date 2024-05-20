@@ -26,7 +26,7 @@ function Introduction() {
         </div>
       </div>
       <div className={styles.asterix}>
-        <p>*Photos non-contractuelles</p>
+        <p>*Photos des véhicules non-contractuelles</p>
       </div>
     </div>
   );

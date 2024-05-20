@@ -170,13 +170,14 @@
 
 @media screen and (max-width: 1090px) {
   .titleImageDescription {
-    top: 360px;
+    top: 410px;
+    transform: rotate(-5deg);
   }
 }
 
 @media screen and (max-width: 945px) {
   .titleImageDescription {
-    top: 330px;
+    top: 340px;
   }
 }
 
@@ -243,3 +244,21 @@
     margin-top: 100px;
   }
 }
+
+@media screen and (max-width: 390px) {
+    .divDescription {
+      width: 100%;
+    }
+    .divLuck {
+      width: 35%;
+      top: 220px;
+    }
+    .titleImageDescription {
+      top: 150px;
+      font-size: 12px;
+      transform: rotate(-5deg);
+    }
+    .divBoxDescription {
+      margin-top: 100px;
+    }
+  }

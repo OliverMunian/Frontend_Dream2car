@@ -33,33 +33,6 @@ function Home() {
     setProduct(option);
   }
 
-  // const prestations = [
-  //   {
-  //     Title: "Prenez les commandes",
-  //     description:
-  //       "Plongez dans l'élégance et la performance avec l'Audi A1 Sportback. Conçue pour ceux qui ne font aucun compromis entre style et dynamisme, cette voiture redéfinit le plaisir de conduire. Prêt à faire tourner les têtes et conquérir les routes ? Découvrez l'excellence avec l'Audi A1 Sportback",
-  //     icone: "🚀",
-  //   },
-  //   {
-  //     Title: "Participez au tirage au sort",
-  //     description:
-  //       "Pour participez au concours, rendez-vous un peu plus loin pour remplir le formulaire",
-  //     icone: "⏳",
-  //   },
-  //   {
-  //     Title: "Le gagnant du concours",
-  //     description:
-  //       "Le grand gagnant du cours se verra repartir avec les clés en main au volant de cette Audi A1 ",
-  //     icone: "🔑",
-  //   },
-  //   {
-  //     Title: "Huissier",
-  //     description:
-  //       "Le tirage au sort sera réalisé par notre huisser. La date du tirage au sort vous sera communiqué par mail",
-  //     icone: "⚖️",
-  //   },
-  // ];
-
   const participationDisplay = participation.map((participation, i) => {
     if (selectedOption === participation.id) {
       return (
@@ -93,33 +66,6 @@ function Home() {
     );
   });
 
-  // const prestationsDisplay = prestations.map((presta, i) => {
-  //   if (i == 1 || i == 2) {
-  //     return (
-  //       <div key={i} className={styles.allIDescription}>
-  //         <div className={styles.descriptionOne}>
-  //           <h1>{presta.Title}</h1>
-  //           <p>{presta.description}</p>
-  //         </div>
-  //         <div className={styles.icone}>
-  //           <p>{presta.icone}</p>
-  //         </div>
-  //       </div>
-  //     );
-  //   }
-  //   return (
-  //     <div key={i} className={styles.allDescription}>
-  //       <div className={styles.descriptionOne}>
-  //         <h1>{presta.Title}</h1>
-  //         <p>{presta.description}</p>
-  //       </div>
-  //       <div className={styles.icone}>
-  //         <p>{presta.icone}</p>
-  //       </div>
-  //     </div>
-  //   );
-  // });
-
   return (
     <div>
       <Header></Header>
@@ -127,32 +73,6 @@ function Home() {
         <Intro/>
         <Carousel/>
         <Description/>
-        {/* <div className={styles.divDescription}>
-          <div className={styles.accrocheDescription}>
-            <h1 className={styles.titleDescription}>
-              SAISISSEZ VOTRE CHANCE DÈS{" "}
-              <span className={styles.spanColor}> MAINTENANT </span>
-            </h1>
-            <div className={styles.luckDescription}>
-              <h1> 🍀🧙🥠 </h1>
-            </div>
-          </div>
-          <div className={styles.description}>
-            <div className={styles.imageDescription}></div>
-            <div className={styles.titleImageDescription}>
-              <h1>
-                AUDI A1 SPORTBACK
-                <br />
-                VALEUR: <span className={styles.spanColor}>
-                  23.760€
-                </span> 💰{" "}
-              </h1>
-            </div>
-            <div className={styles.allDescriptionIcone}>
-              {prestationsDisplay}
-            </div>
-          </div>
-        </div> */}
         <div className={styles.concours} id="particpation">
           <div className={styles.imageConcours}>{/* Image du CONCOURS */}</div>
           <div className={styles.concoursDescription}>
