@@ -45,6 +45,7 @@ function Carousel() {
     return (
       <div className={styles.vehicule} key={i}>
         <Image
+          unoptimized
           src={voiture.src}
           height={250}
           className={styles.imageCarousel}
