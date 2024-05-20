@@ -50,6 +50,7 @@ function Carousel() {
           height={250}
           className={styles.imageCarousel}
           alt={voiture.alt}
+          priority
         />
         <h2>{voiture.Title}</h2>
       </div>

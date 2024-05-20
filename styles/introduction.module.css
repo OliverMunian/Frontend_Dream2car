@@ -115,10 +115,10 @@
 
 @media screen and (max-width: 570px) {
     .introduction{
-        width: 80%;
+        width: 90%;
     }
     .introduction h1{
-        font-size: 33px
+        font-size: 36px
     }
 
     .imageIntroduction h1{
