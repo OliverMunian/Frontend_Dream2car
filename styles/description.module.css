@@ -245,20 +245,20 @@
   }
 }
 
-@media screen and (max-width: 390px) {
-    .divDescription {
-      width: 100%;
-    }
-    .divLuck {
-      width: 35%;
-      top: 220px;
-    }
-    .titleImageDescription {
-      top: 150px;
-      font-size: 12px;
-      transform: rotate(-5deg);
-    }
-    .divBoxDescription {
-      margin-top: 100px;
-    }
+@media screen and (max-width: 480px) {
+  .divDescription {
+    width: 100%;
   }
+  .divLuck {
+    width: 35%;
+    top: 220px;
+  }
+  .titleImageDescription {
+    top: 150px;
+    font-size: 12px;
+    transform: rotate(-5deg);
+  }
+  .divBoxDescription {
+    margin-top: 100px;
+  }
+}
