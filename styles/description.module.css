@@ -1,0 +1,245 @@
+.divDescription {
+  width: 90%;
+  display: flex;
+}
+
+.divTitleDescription {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.divTitleDescription h1 {
+  font-size: 45px;
+}
+
+.spanColor {
+  color: rgb(210, 22, 210);
+}
+
+.divLuck {
+  position: absolute;
+  background-color: white;
+  border-radius: 40px;
+  width: 25%;
+  padding: 1px;
+  top: 115px;
+  transform: rotate(5deg);
+  box-shadow: 5px 5px 5px grey;
+}
+
+.divLuck h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+/*COLONE DE DROITE*/
+.description {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.imgDescription {
+  position: relative;
+  aspect-ratio: 5.5 / 3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.imgDescription img {
+  border-radius: 30px;
+}
+
+.titleImageDescription {
+  position: absolute;
+  background-color: white;
+  border-radius: 40px;
+  width: 65%;
+  padding: 5px;
+  transform: rotate(5deg);
+  top: 330px;
+  box-shadow: 5px 5px 5px grey;
+  text-align: center;
+}
+
+/*COLONE DE DROITE + ETIQUETTES */
+.divBoxDescription {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+
+.allDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 30px;
+  width: 40%;
+  transform: rotate(5deg);
+}
+
+.descriptionOne {
+  background-color: white;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.icone {
+  position: absolute;
+  margin-top: -90px;
+  text-align: center;
+  font-size: 55px;
+}
+
+@media screen and (max-width: 1460px) {
+  .titleImageDescription {
+    top: 310px;
+  }
+}
+
+@media screen and (max-width: 1374px) {
+  .divLuck {
+    top: 170px;
+  }
+  .titleImageDescription {
+    top: 295px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .divLuck {
+    top: 170px;
+  }
+  .titleImageDescription {
+    top: 255px;
+  }
+}
+
+@media screen and (max-width: 1288px) {
+  .divTitleDescription {
+    width: 60%;
+  }
+  .titleImageDescription {
+    top: 295px;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .divLuck {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1111px) {
+  .divTitleDescription {
+    width: 90%;
+  }
+  .titleImageDescription {
+    top: 260px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .divDescription {
+    flex-direction: column;
+    align-items: center;
+  }
+  .divLuck {
+    width: 20%;
+    top: 120px;
+  }
+
+  .description {
+    margin-top: 75px;
+  }
+  .titleImageDescription {
+    top: 430px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .titleImageDescription {
+    top: 360px;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .titleImageDescription {
+    top: 330px;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .titleImageDescription {
+    top: 290px;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .titleImageDescription {
+    top: 260px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .divBoxDescription {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divBoxDescription:nth-child(3) {
+    transform: rotate(5deg);
+  }
+
+  .allDescription {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .divLuck {
+    width: 25%;
+    top: 170px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .titleImageDescription {
+    top: 230px;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .titleImageDescription {
+    top: 220px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .divDescription {
+    width: 100%;
+  }
+  .divLuck {
+    width: 35%;
+  }
+  .titleImageDescription {
+    top: 190px;
+    font-size: 12px;
+  }
+  .divBoxDescription {
+    margin-top: 100px;
+  }
+}

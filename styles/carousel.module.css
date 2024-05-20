@@ -104,3 +104,13 @@
         font-size: 17px;
     }
 }
+
+@media screen and (max-width: 430px) {
+  .divTitleCarousel{
+      width: 80%;
+      border-radius: 30px;
+  }
+  .divTitleCarousel h1{
+      font-size: 17px;
+  }
+}

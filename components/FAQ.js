@@ -46,7 +46,7 @@ function FAQ() {
       <div className={styles.wrapfaq}>
         {foireQuestions.map((element, i) => {
           return (
-            <div className={styles.boxfaq} >
+            <div className={styles.boxfaq} key={i}>
               <div className={styles.faq} style={{ height: visibleIndex === i ? '250px' : '130px', overflow: 'hidden' }}>
                 <h1>{element.Title}</h1>
                 {visibleIndex === i && <p>{element.Description}</p>}
